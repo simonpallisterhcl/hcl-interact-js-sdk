@@ -1,0 +1,27 @@
+{
+  "name": "hcl-interact-js-sdk",
+  "version": "0.0.1",
+  "description": "HCL Unica Interact SDK",
+  "homepage": "https://github.com/simonpallisterhcl/hcl-interact-js-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/simonpallisterhcl/hcl-interact-js-sdk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonpallisterhcl/hcl-interact-js-sdk.git"
+  },
+  "license": "MIT",
+  "author": "Simon Pallister",
+  "type": "module",
+  "main": "dist/interact-api.min.js",
+  "module": "src/interact-spot.js",
+  "types": "interact-api.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup": "^4.34.2"
+  }
+}
